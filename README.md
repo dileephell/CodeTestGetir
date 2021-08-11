@@ -7,9 +7,20 @@
 ## How to Start?
 
 1) From within ./src folder run ` npm run start` 
-2) Point to /api endpoint and enter the request payload. (screenshot attached - postman.png).
-3) Documentation Via SwaggerDocs.
-4) Architecure
+2) Point to /api endpoint and enter the request payload. (screenshot attached - postman.png) or either https://api-challenge333.herokuapp.com/api in postman with the request params as 
+```
+{
+    "startDate": "2016-01-26",
+    "endDate": "2018-02-02",
+    "minCount": 2700,
+    "maxCount": 3000
+}
+```
+<img width="673" alt="Heroku-API-Test" src="https://user-images.githubusercontent.com/2589018/129094830-377bb4d8-2cce-4648-9c0d-c39564eec618.PNG">
+
+
+4) Documentation Via SwaggerDocs.
+5) Architecure
 
 
 ## Notes
